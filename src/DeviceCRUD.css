@@ -1,0 +1,32 @@
+/* DeviceCRUD.css */
+
+.device-crud-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .create-device {
+    margin-bottom: 20px;
+  }
+  
+  .device-list {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .device-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+  }
+
+  .device-info {
+    margin-right: 10px; /* Adjust the margin value to control the space between words */
+  }
+  
+  /* Style for input fields, buttons, etc. can be added here */
+  

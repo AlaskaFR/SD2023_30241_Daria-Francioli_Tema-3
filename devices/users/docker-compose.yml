@@ -1,0 +1,16 @@
+version: '3'
+services:
+  api1:
+    image: api1-image
+    container_name: api1-container
+    ports:
+      - "8082:8082"
+    environment:
+      - SPRING_PROFILES_ACTIVE=production
+    volumes:
+      - ./config/application-prod.properties:/app/application.properties
+    networks:
+      - my-network
+
+networks:
+  my-network:

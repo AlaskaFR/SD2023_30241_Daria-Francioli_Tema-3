@@ -1,0 +1,32 @@
+/* DeviceCRUD.css */
+
+.user-crud-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .create-user {
+    margin-bottom: 20px;
+  }
+  
+  .user-list {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .user-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+  }
+
+  .user-info {
+    margin-right: 10px; /* Adjust the margin value to control the space between words */
+  }
+  
+  /* Style for input fields, buttons, etc. can be added here */
+  
